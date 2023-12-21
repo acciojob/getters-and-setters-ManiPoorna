@@ -25,7 +25,7 @@ class Teacher extends Person {
 	constructor(name){
 		super(name);
 	}
-	study(){
+	teach(){
 		console.log(`${this.name} is teaching`)
 	}
 }
